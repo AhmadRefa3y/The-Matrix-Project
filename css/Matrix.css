@@ -239,6 +239,7 @@ ul {
   display: flex;
   align-items: center;
   padding-bottom: 120px;
+  justify-content: center;
 }
 
 .landing-img img {
@@ -260,6 +261,13 @@ ul {
 
 @media (max-width: 850px) {
   .landing-img {
+    flex-basis: 80%;
+    padding-top: 50px;
+  }
+  .landing-img img {
+    width: 100%;
+  }
+  .landing .container .text {
     display: none;
   }
 }
