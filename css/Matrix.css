@@ -242,9 +242,10 @@ ul {
 }
 
 .landing-img img {
-  width: 600px;
+  width: 400px;
   position: relative;
   animation: up-and-down 5s linear infinite;
+  border-radius: 50%;
 }
 
 @keyframes up-and-down {
